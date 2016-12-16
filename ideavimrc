@@ -1,0 +1,6 @@
+inoremap <c-]> <esc>
+nnoremap <S-l> gt
+nnoremap <S-h> gT
+nnoremap ; :
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv

@@ -1,0 +1,35 @@
+snippet ife
+	if err != nil {
+		return err
+	}
+
+snippet if
+	if ${1} {
+		${2}
+	}
+
+snippet fp
+	fmt.Println(${1})
+
+snippet fpf
+	fmt.Printf("${1}", ${2})
+
+snippet be
+	func Benchmark${1}(b *testing.B) {
+		${2}
+	}
+
+snippet te
+	func Test${1}(t *testing.T) {
+		${2}
+	}
+
+snippet fo
+	for ${2:i} := 0; $2 < ${1:count}; $2++ {
+		${3}
+	}
+
+snippet fora
+	for ${1:i}, ${2} := range ${3} {
+		${4}
+	}
