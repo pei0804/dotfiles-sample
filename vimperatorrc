@@ -115,6 +115,9 @@ ignorekeys add facebook\\.com
 ignorekeys add mail\\.google\\.com
 ignorekeys add inbox\\.google\\.com
 ignorekeys add console\\.cloud\\.google\\.com
+ignorekeys add ssh\\.cloud\\.google\\.com
+
+
 
 "======================================================================
 
